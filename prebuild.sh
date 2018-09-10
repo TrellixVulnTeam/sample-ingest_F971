@@ -2,7 +2,8 @@
 set -eu
 
 rm -rf venv
-virtualenv-3.6 venv
+#virtualenv-3.6 venv
+python3 -m virtualenv venv
 
 set +u
 source venv/bin/activate

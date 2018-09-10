@@ -11,7 +11,7 @@ def get_args():
    # parser.add_argument('-a', '--account', type=str, required=True, help='API account username')
    # parser.add_argument('-t', '--token', type=str, required=True, help='API token')
    # parser.add_argument('-d', '--data_url', type=str, required=True, help='Data URL')
-   # parser.add_argument('-c', '--configuration_url', type=str, required=True, help='Configuration URL')
+    parser.add_argument('-a', '--partition', type=str, required=True, help='Parition YYYY-MM-DD')
 
     args = parser.parse_args()
     return args

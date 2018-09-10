@@ -15,7 +15,7 @@ if __name__ == '__main__':
     ingest_args = get_args()
     try:
         print("test")
-        extractor = DataExtractor()
+        extractor = DataExtractor(ingest_args)
         extractor.processExtracts()
     finally:
         print("completed")
