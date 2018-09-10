@@ -1,9 +1,0 @@
-{
-  "edgeNodeExtractDir": "/home/scotiadata/staging",
-  "extracts": [{
-      "dataSetName": "is_test1",
-      "hdfs_source_path": "/user/hive/warehouse/is_onprem.db/is_test1",
-      "partition_col": "psc"
-    }
-  ]
-}
