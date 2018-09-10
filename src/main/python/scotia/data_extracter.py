@@ -20,7 +20,7 @@ class DataExtractor(object):
         """
 
         """
-        config = json.loads(open(r'../python/conf/extracts.json').read())
+        config = json.loads(open(r'./src/main/conf/extracts.json').read())
         hdfsCmd = "hdfs dfs -copyToLocal "
         edgeNodeExtractDir = config['edgeNodeExtractDir']
         print('edgeNodeExtractDir ' + edgeNodeExtractDir)
